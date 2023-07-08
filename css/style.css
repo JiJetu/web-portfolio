@@ -212,8 +212,10 @@ main section {
 .resume-column hr {
     margin: 30px 0px;
 }
-/* CV Button */
+/* CV Button style */
 .donload-cv{
     margin-top: 50px;
     text-align: center;
 }
+
+/* footer section style */
