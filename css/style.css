@@ -138,7 +138,20 @@ main{
 .info-title{
     color: #757575;
 }
-.info-discription{
+.info-description{
     /* text-align: center; */
     font-weight: bold;
 } 
+#What-I-do-section-description{
+    padding: 30px 150px;
+}
+
+/* What I do section style */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    padding: 30px 30px 30px 30px;
+    gap: 25px;
+}
