@@ -35,7 +35,7 @@ body {
 .section-description {
     color: #757575;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* header related style */
@@ -199,7 +199,8 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -212,16 +213,37 @@ main section {
 .resume-column hr {
     margin: 30px 0px;
 }
+
 /* CV Button style */
-.donload-cv{
+.download-cv {
     margin-top: 50px;
     text-align: center;
 }
 
 /* footer section style */
-footer{
+footer {
     display: flex;
     background: #FFF8F3;
-    padding: 130px 200px;
+    gap: 100px;
+    padding: 130px 200px 130px 100px;
     margin-top: 113px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-links a {
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
 }
