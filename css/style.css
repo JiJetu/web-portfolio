@@ -1,3 +1,7 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -19,11 +23,16 @@ body {
     padding: 15px 35px;
 }
 
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
 /* Nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 200px;
 }
 
 .nav-title {
@@ -45,4 +54,12 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-pic{
+    width: 400px;
 }
