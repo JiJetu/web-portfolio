@@ -47,6 +47,9 @@ body {
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-origin: border-box, content-box;
 }
 
 /* Nav related styles */
@@ -98,6 +101,7 @@ nav a {
 
 .banner .banner-pic {
     width: 500px;
+    transform: translateY(50px);
 }
 
 .banner-greeting {
