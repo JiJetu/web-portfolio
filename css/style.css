@@ -284,25 +284,46 @@ textarea {
 
 /* responsive media query */
 
+
 /* mobile or smaller device */
-.hide {
-    display: none;
-}
-
 @media screen and (max-width: 576px) {
-
+    .header{
+        background-image: none;
+    }
+    .banner .banner-pic {
+        width: 100%;
+        transform: translateY(70px);
+    }
+    .btn-gap {
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    nav,
+    .banner,
     .skill-container,
     .resume-container,
-    footer {
+    footer,
+    .about-info-container
+    {
         flex-direction: column;
     }
-
+    nav,
+    .banner,
     #What-I-do-section-description,
-    footer {
+    footer,
+    .about
+    {
         padding: 20px;
     }
-
-    .footer-column {
+    .banner-greeting
+    {
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 80px;
+    }
+    
+    .footer-column{
         width: auto;
     }
     .contact input[type="text"],
@@ -316,24 +337,39 @@ textarea {
 }
 
 /* medium device */
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 994px) {
+    .header{
+        background-image: none;
+    }
+    .banner .banner-pic {
+        width: 100%;
+        transform: translateY(80px);
+    }
+    .banner-greeting
+    {
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 80px;
+    }
+    
     .resume-container {
         gap: auto;
     }
-
-    .skill-container,
-    footer {
+    nav,
+    .banner,
+    .skill-container {
         flex-direction: column;
     }
-    .footer-column {
-        width: auto;
+    nav,
+    .banner,
+    footer{
+        padding: 30px;
     }
     .contact input[type="text"],
     .contact input[type="email"],
     textarea{
         width: 85%;
     }
-    .social-links{
-        text-align: center;
-    }
+    
 }
