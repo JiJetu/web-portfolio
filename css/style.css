@@ -298,6 +298,12 @@ textarea {
         margin-top: 10px;
         margin-right: 0px;
     }
+    nav{
+        justify-content: flex-start;
+    }
+    nav >ul{
+        margin-right: 25%;
+    }
     nav,
     .banner,
     .skill-container,
@@ -320,9 +326,11 @@ textarea {
         text-align: center;
     }
     .banner-title{
-        font-size: 80px;
+        font-size: 57px;
     }
-    
+    .btn-primary {
+        padding: 10px;
+    }
     .footer-column{
         width: auto;
     }
